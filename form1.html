@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid rgba(154, 155, 221, 0.918);
+            padding: 8px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <h2>Formulário de Informações</h2>
+    <form>
+        <table>
+            <tr>
+                <th colspan="2">Informações Pessoais</th>
+            </tr>
+            <tr>
+                <td>Nome:</td>
+                <td><input type="text" name="nome"></td>
+            </tr>
+            <tr>
+                <td>Email:</td>
+                <td><input type="email" name="email"></td>
+            </tr>
+            <tr>
+                <td>Telefone:</td>
+                <td><input type="tel" name="telefone"></td>
+            </tr>
+            <tr>
+                <th colspan="2">Informações Profissionais</th>
+            </tr>
+            <tr>
+                <td>Empresa:</td>
+                <td><input type="text" name="empresa"></td>
+            </tr>
+            <tr>
+                <td>Cargo:</td>
+                <td><input type="text" name="cargo"></td>
+            </tr>
+            <tr>
+                <td>Área de Atuação:</td>
+                <td><input type="text" name="area"></td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: center;"><input type="submit" value="Enviar"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
